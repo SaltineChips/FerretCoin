@@ -443,7 +443,7 @@ void FerretCoinGUI::createToolBars()
     toolbar->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
     toolbar->setContextMenuPolicy(Qt::PreventContextMenu);
     toolbar->setObjectName("tabs");
-    toolbar->setStyleSheet("QToolButton { color: #e5e9ff; font-weight:bold; background-color: #121418;} QToolButton:hover { background-color: #1dd5e5; } QToolButton:checked { background-color: #178bc4 } QToolButton:pressed { background-color: #1997d6; } #tabs { color: #e5e9ff; background-color: #121418; }");
+    toolbar->setStyleSheet("QToolButton { color: #e5e9ff; font-weight:bold; background-color: #121418;} QToolButton:hover { background-color: #cb2517; } QToolButton:checked { background-color: #9e1d12 } QToolButton:pressed { background-color: #b42114; } #tabs { color: #e5e9ff; background-color: #121418; }");
     toolbar->setIconSize(QSize(24,24));
 
     if(!fUseDarkTheme)
